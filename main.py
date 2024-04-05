@@ -12,7 +12,6 @@ routes = [
     Test
 ]
 
-
 def route_registration(): 
     for r in routes: 
         route_path = inspect.getfile(r)
