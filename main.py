@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 from routes.index import Home
+from routes.measurement.index import Measurement
 from routes.test.index import Test
 import inspect
 
@@ -9,7 +10,8 @@ api = Api(app)
 
 routes = [
     Home,
-    Test
+    Test,
+    Measurement
 ]
 
 def route_registration(): 
