@@ -5,8 +5,8 @@ if __name__ == "__main__":
     
     try: 
         print("Loading the dll file")
-        dll = WinDLL("./utils/nir/dll/HSSUSB2A_Int.dll")
-        connection = dll.TestUSBFunc()
+        dll = WinDLL("./utils/nir/dll/Dll1.dll")
+        connection = dll.InitSpec()
         print(connection)
     except AttributeError as X:
         print(X)
