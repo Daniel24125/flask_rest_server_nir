@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HSSUSB2A_DLL_Interface/1.0.0": {
+        "dependencies": {
+          "HSSUSB2A": "1.0.0.3"
+        },
+        "runtime": {
+          "HSSUSB2A_DLL_Interface.dll": {}
+        }
+      },
+      "HSSUSB2A/1.0.0.3": {
+        "runtime": {
+          "HSSUSB2A.dll": {
+            "assemblyVersion": "1.0.0.3",
+            "fileVersion": "1.0.0.3"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HSSUSB2A_DLL_Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HSSUSB2A/1.0.0.3": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
